@@ -1,0 +1,22 @@
+[
+{
+  "id": "bt4g",
+  "name": " BT4G",
+  "url": "https://bt4g.org",
+  "icon": "https://bt4g.org/favicon.ico",
+  "paths": {
+    "preset": "/search/{k}",
+    "time": "/search/{k}/{p}",
+    "size": "/search/{k}/bysize/{p}",
+    "hot": "/week"
+  },
+  "xpath": {
+    "group": "//div[@class='col s12']/div",
+    "magnet": "./h5[1]/a[1]/@href",
+    "name": "./h5[1]/a[1]",
+    "size": "./span[4]/b[1]",
+    "date": "./span[2]/b[1]",
+    "hot": "./span[6]/b[1]"
+  }
+}
+]
