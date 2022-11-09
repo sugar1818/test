@@ -2,11 +2,10 @@
 {
   "id": "bt4g",
   "name": " BT4G",
-  "url": "https://jp.bt4g.org/",
-  "icon": "https://jp.bt4g.org/favicon.ico",
+  "url": "https://bt4g.org",
+  "icon": "https://bt4g.org/favicon.ico",
   "paths": {
-    "preset": "/search/{k}",
-    "time": "/search/{k}/{p}",
+    "preset": "/search/{k}/{p}",
     "size": "/search/{k}/bysize/{p}",
     "hot": "/week"
   },
